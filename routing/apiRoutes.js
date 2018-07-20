@@ -12,25 +12,25 @@ module.exports = function(app) {
     });
 
     app.post("/api/friends", function(request,response){
-        console.log(request);
-        var candidateScores, scoreArray, match
+        console.log(request.body);
+        var candidateScores, scoresArray, match
         candidateScores = request.body.scores;
-        scoreArray = [];
+        scoresArray = [];
         match = 0;
         
         
         for (i = 0; i < friendList.length; i ++) {
             var scoresDiff = 0;
             //run through scores to compare friends
-            for(var k = 0; j < candidateScores.length; k++){
+            for(var k = 0; k < candidateScores.length; k++){
               scoresDiff += (Math.abs(parseInt(friendList[i].scores[k]) - parseInt(candidateScores[k])));
             }
       
             //push results into scoresArray
             scoresArray.push(scoresDiff);
           }
-            for ( var i = 0; i < scoreArray.length; i++) {
-                if(scoresArray[i] <= scoresArray[bestMatch]){
+            for ( var i = 0; i < scoresArray.length; i++) {
+                if(scoresArray[i] <= scoresArray[match]){
                     match = i;
             }
         }
@@ -40,8 +40,8 @@ module.exports = function(app) {
        var hotDate = friendList[match];
     
        
-    return response.json(hotDate);
-    friendList.push(request.body);
+       friendList.push(request.body);
+        response.json(hotDate);
     //    friendList.push(request.body);
 
 

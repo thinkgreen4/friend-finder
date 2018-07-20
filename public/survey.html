@@ -7,8 +7,8 @@
    
      <!-- Latest compiled and minified CSS & JS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
+	<!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>  -->
  <!--materialize -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"> -->
   <!-- materialize icons -->
@@ -148,12 +148,12 @@
         <div class="modal-content">
           <h4>This sexy babe can't wait to meet you!</h4>
           <h5 id="babeName"></h5>
-          <img id="babeImag" src="" alt="No Image" width = 250px>
+          <img id="babeImage" src="" alt="No Image" width = 250px>
         </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
-      </div>
-    </div>
+        <div class="modal-footer">
+            <a id="close" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+        </div>
+     </div>
 
 
     </div> --> -->
@@ -180,24 +180,24 @@ $("document").ready(function(){
             return isValid;
         }
         //if everything is filled
-        if (validateForm() == true)
-        var candidate = {
-            name: $("#name").val().trim(),
-            photo: $("#photo").val().trim(),
-            scores:[$("#q1").val(),
-            $("#q2").val(),
-            $("#q3").val(),
-            $("q4#").val(),
-            $("#q5").val(),
-            $("#q6").val(),
-            $("#q7").val(),
-            $("#q8").val(),
-            $("#q9").val(),
-            $("#q10").val(),
-            
-            
-             ]
-                };
+        if (validateForm() == true) {
+            var candidate = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores:[
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+                ]
+            };
+        }
                 // document.addEventListener('DOMContentLoaded', function() {
                 //      var elems = document.querySelectorAll('#modal1');
                 //     var instances = M.Modal.init(elems, options);
@@ -205,13 +205,15 @@ $("document").ready(function(){
 // <!-- 
 //      var currentURL = window.location.origin; -->
             //AJAX posts the data to friends API.
-            $.post( "/api/friends", candidate, function (data) {
-                //Grab the result from the AJAX post so that the best match's name and photo are displayed.
-                $("#babeName").text(data.name);
-                $("#babeImage").attr("src", data.photo);
-                $('#modal1').modal();
-                
-            });
+            console.log(candidate);
+            $.post("/api/friends", candidate).then(function (data) {
+            //Grab the result from the AJAX post so that the best match's name and photo are displayed.
+            console.log(data);
+            $("#babeName").text(data.name);
+            $("#babeImage").attr("src", data.photo);
+            $('#modal1').css("display", "block")
+
+        })
             // Show the modal with the best match
             // $('.modal').modal('open');
             //clear form after submission
@@ -219,6 +221,11 @@ $("document").ready(function(){
        
         // return false;
     });
+    $("#close").on("click", function (event) {
+        event.preventDefault()
+        $('#modal1').css("display", "none")
+    })
+
 });
 
 </script>

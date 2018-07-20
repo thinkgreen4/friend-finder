@@ -8,8 +8,22 @@ var app = express();
 var PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing
-app.get(bodyParser.urlencoded({extended: true}));
-app.get(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+
+// function user(req, res, next) {
+//   console.log("wow");
+//   if(!req.user){
+//     var user = {
+//       isLogedin: false,
+//       name: "",
+//       email: ""
+//     }
+//     req.user = user
+//   }
+//   next()
+// }
+// app.use(user)
 
 
 //ROUTER
