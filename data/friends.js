@@ -1,7 +1,7 @@
 var friendList = [
     {
     name: "sexy schoolgirl",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjj4aCPyqbcAhUg8YMKHbsXB9EQjRx6BAgBEAU&url=https%3A%2F%2Fwww.dreamstime.com%2Fstock-photo-bodybuilder-woman-studio-isolated-shot-big-tits-breast-image52009026&psig=AOvVaw16X7q3Xs1feC392eAEOjz2&ust=1531932127887527",
+    photo: "https://www.amiclubwear.com/media/catalog/product/cache/1/image/540x810/9df78eab33525d08d6e5fb8d27136e95/c/o/costume-schoolgirl-jj1-4550bluewhite.jpg",
     scores: [
     5,
     1,
@@ -17,7 +17,7 @@ var friendList = [
     },
     {
     name: "naughty maid",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiEnqjEyqbcAhWLpoMKHSbvDSMQjRx6BAgBEAU&url=https%3A%2F%2Fmasqueradeexpress.com%2Fsexy-maid-costume%2F&psig=AOvVaw0E4ETrBqC2w0iwsWg7JMRw&ust=1531932251224780",
+    photo: "https://i.pinimg.com/originals/8f/0e/5a/8f0e5a5730f3b3380dc035f4b3124eca.jpg",
     scores: [
     4,
     2,
@@ -33,7 +33,7 @@ var friendList = [
     },
     {
     name: "Disney Dasmel",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwicj_jcyqbcAhUD3IMKHSGpAwoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.dhgate.com%2Fproduct%2Fsexy-minnie-mouse-costume-dress-sexy-fairy%2F101440608.html&psig=AOvVaw0N25vslwfy9HNpBMzbmQHI&ust=1531932310134168",
+    photo: "https://i.pinimg.com/564x/63/ce/0b/63ce0b9cf55f689d2c26444d6a076a34--maid-costumes-girl-costumes.jpg",
     scores: [
     5,
     2,
@@ -49,7 +49,7 @@ var friendList = [
     },
     {
     name: "Possible Jail Time",
-    photo: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F38%2Fde%2F18%2F38de184c30cb420316747cd30948fc14.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com.au%2Fpin%2F316518680046058945%2F&docid=YRCXWJ0bW7ox6M&tbnid=CSxKYMe26WJsmM%3A&vet=10ahUKEwietNWsy6bcAhVk_4MKHbauBlIQMwhLKBowGg..i&w=811&h=1082&bih=947&biw=1920&q=cute%20teens%20in%20lingerie&ved=0ahUKEwietNWsy6bcAhVk_4MKHbauBlIQMwhLKBowGg&iact=mrc&uact=8",
+    photo: "https://www.amiclubwear.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/l/clothing-outfit-gg1-tr0009beigeleo_3.jpg",
     scores: [
     3,
     3,
@@ -65,7 +65,7 @@ var friendList = [
     },
     {
     name: "sexy princess",
-    photo: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiSz-zXy6bcAhVB34MKHXlGDtYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.3wishes.com%2Fsexy-costumes%2Ffairy-tale-costumes%2Fprincess-costumes%2F&psig=AOvVaw2YqeLaFsAqGRFpNRE3X7In&ust=1531932559333381",
+    photo: "https://image.dhgate.com/0x0/f2/albu/g5/M00/90/7D/rBVaI1hFjvOAQlkNAAJULkqYE1o986.jpg",
     scores: [
     4,
     3,
@@ -81,7 +81,7 @@ var friendList = [
     },
     {
     name: "Bossy Biatch",
-    photo: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2F16%2F1d%2F51%2F161d51ab5ef310fcd292ba74e2968ca1--selfie-sexy-office-ladies.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.co.uk%2Fscudzys%2Fnikki-sexx%2F&docid=5R4IbAFHxsYr8M&tbnid=woN8lc32fAcO5M%3A&vet=10ahUKEwjJnr6WzKbcAhVk8IMKHTSAC0kQMwgrKAQwBA..i&w=533&h=800&bih=947&biw=1920&q=sexy%20boss%20porn%20star&ved=0ahUKEwjJnr6WzKbcAhVk8IMKHTSAC0kQMwgrKAQwBA&iact=mrc&uact=8",
+    photo: "https://i.ebayimg.com/images/g/JnYAAOSw7ApZ03MW/s-l300.jpg",
     scores: [
     4,
     4,
