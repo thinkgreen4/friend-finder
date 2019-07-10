@@ -1,7 +1,7 @@
 var friendList = [
     {
     name: "sexy schoolgirl",
-    photo: "https://www.amiclubwear.com/media/catalog/product/cache/1/image/540x810/9df78eab33525d08d6e5fb8d27136e95/c/o/costume-schoolgirl-jj1-4550bluewhite.jpg",
+    photo: "https://images-na.ssl-images-amazon.com/images/I/618iMHgrJNL._UX522_.jpg",
     scores: [
     5,
     1,
@@ -17,7 +17,7 @@ var friendList = [
     },
     {
     name: "naughty maid",
-    photo: "https://i.pinimg.com/originals/8f/0e/5a/8f0e5a5730f3b3380dc035f4b3124eca.jpg",
+    photo: "http://www.femmefever.com/ccp8/media/ecom/prodlg/costumes/0227costume_sm.jpg",
     scores: [
     4,
     2,
@@ -33,7 +33,7 @@ var friendList = [
     },
     {
     name: "Disney Dasmel",
-    photo: "https://i.pinimg.com/564x/63/ce/0b/63ce0b9cf55f689d2c26444d6a076a34--maid-costumes-girl-costumes.jpg",
+    photo: "https://cdn11.bigcommerce.com/s-pqndnq/images/stencil/500x659/products/538/10831/DH1005_a__00398.1404678026.jpg?c=2",
     scores: [
     5,
     2,
@@ -49,7 +49,7 @@ var friendList = [
     },
     {
     name: "Possible Jail Time",
-    photo: "https://www.amiclubwear.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/l/clothing-outfit-gg1-tr0009beigeleo_3.jpg",
+    photo: "https://i2.wp.com/raisingteensblog.com/wp-content/uploads/2011/10/sexycostume.jpg",
     scores: [
     3,
     3,
@@ -65,7 +65,7 @@ var friendList = [
     },
     {
     name: "sexy princess",
-    photo: "https://image.dhgate.com/0x0/f2/albu/g5/M00/90/7D/rBVaI1hFjvOAQlkNAAJULkqYE1o986.jpg",
+    photo: "http://picture-cdn.wheretoget.it/t9u4dr-l-610x610-dress-crown-golden+crown-golden+dress+open-long+dress-promdress+gold+sexy+long-queen-princess+dress-princess-royalty-living+royal-gorgeous-gold-amazing-accessories-earrings-gold+dr.jpg",
     scores: [
     4,
     3,
@@ -81,7 +81,7 @@ var friendList = [
     },
     {
     name: "Bossy Biatch",
-    photo: "https://i.ebayimg.com/images/g/JnYAAOSw7ApZ03MW/s-l300.jpg",
+    photo: "https://i.pinimg.com/originals/82/c3/80/82c380baf84cf8ecd9623338a7378283.jpg",
     scores: [
     4,
     4,
